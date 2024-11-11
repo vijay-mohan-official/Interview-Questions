@@ -1,1 +1,2 @@
-
+-> Dependency Injection in Spring
+Technique where Spring creates and connects objects for us, we don't have to manually set them up, which makes managing app easier.
