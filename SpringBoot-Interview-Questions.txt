@@ -1,2 +1,17 @@
 -> Dependency Injection in Spring
 Technique where Spring creates and connects objects for us, we don't have to manually set them up, which makes managing app easier.
+
+
+-> Explain difference between constructor injection and setter injection
+Constructor injection in Spring passes dependencies into an object through its constructor when the object is created.
+Setter injection uses method to set an object's dependency after it has been constructed.
+
+
+-> How @Autowired, @Resource and @Inject differ from each other?
+@Resource will narrow down the search first by name, then by type.
+@Autowired will narrow down the search by type, then qualifier and finally by the name.
+@Inject performs injection by type.
+
+
+-> Purpose of @Qualifier annotation in Spring
+When we need to create and use custom qualifier
